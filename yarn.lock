@@ -4995,7 +4995,7 @@ mute-stream@0.0.8:
 
 nanoid@^3.3.6:
   version "3.3.6"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 near-api-js@^0.44.2:
@@ -5246,7 +5246,7 @@ pbkdf2@^3.0.17, pbkdf2@^3.0.9:
 
 picocolors@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
@@ -5349,9 +5349,9 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.4.18, postcss@^8.4.20, postcss@^8.4.23:
-  version "8.4.23"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.23.tgz"
-  integrity sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==
+  version "8.4.28"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.28.tgz#c6cc681ed00109072816e1557f889ef51cf950a5"
+  integrity sha512-Z7V5j0cq8oEKyejIKfpD8b4eBy9cwW2JWPk0+fB1HOAMsfHbnAXLLS+PfVWlzMSLQaWttKDt607I0XHmpE67Vw==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
@@ -5807,7 +5807,7 @@ sonic-boom@^2.2.1:
 
 source-map-js@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
 source-map@^0.5.7:
