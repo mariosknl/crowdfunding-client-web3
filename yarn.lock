@@ -1266,9 +1266,9 @@
   integrity sha512-+wuegAMaLcZnLCJIvrVUDzA9z/Wp93f0Dla/4jJvIhijRrPabjQbZe6fWiECLaJyfn5ci9fqf9vTw3xpQOad2A==
 
 "@openzeppelin/contracts-upgradeable@^4.4.2", "@openzeppelin/contracts-upgradeable@^4.7.3":
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.9.3.tgz#ff17a80fb945f5102571f8efecb5ce5915cc4811"
-  integrity sha512-jjaHAVRMrE4UuZNfDwjlLGDxTHWIOwTJS2ldnc278a0gevfXfPr8hxKEVBGFBE96kl2G3VHDZhUimw/+G3TG2A==
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.9.4.tgz#202222fa94fd85bd0a5794ead73acc63d815b55b"
+  integrity sha512-sVlteLCQ1RMgz7xbuhz/PRtBGT3oAPqmk1a/QWx+aeBibp+hFFeYodZJNXR7fs/4jbRQsXzPh1kuQ6RwMCCEMQ==
 
 "@openzeppelin/contracts-v0.7@npm:@openzeppelin/contracts@v3.4.2":
   version "3.4.2"
@@ -2230,17 +2230,17 @@
     qrcode "^1.5.3"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@4.0.19":
-  version "4.0.19"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.19.tgz#39d526b53551bcd56fab9c56a3be0f676c48a12a"
-  integrity sha512-RmGoYoyK6FGchSsexjRKE7XtnARnUNXcrMTvsCBWxh77elV7Gen/QxQv1WByRv5LHf1PGRgwXDy1uhu46fTE2g==
+
+  version "4.0.17"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.17.tgz#213aa8d81a50d3b827d5691b02fe8cdedf8cc3d9"
+  integrity sha512-1OZiOSRmNsrMzkzGcoDoUnUlUUFCJwjDqFTQACgoD/LL0zj4X+W6IZ9qngMsJ98tU13ZHpYWwSkI/flzg5Jzkg==
   dependencies:
-    "@thirdweb-dev/chains" "0.1.60"
+    "@thirdweb-dev/chains" "0.1.59"
     "@thirdweb-dev/contracts-js" "1.3.16"
     "@thirdweb-dev/crypto" "0.2.0"
     "@thirdweb-dev/generated-abis" "0.0.1"
     "@thirdweb-dev/merkletree" "0.2.0"
-    "@thirdweb-dev/storage" "2.0.7"
+    "@thirdweb-dev/storage" "2.0.5"
     abitype "^0.2.5"
     bn.js "^5.2.1"
     bs58 "^5.0.0"
@@ -2254,16 +2254,16 @@
     zod "^3.22.3"
 
 "@thirdweb-dev/sdk@^4.0.0":
-  version "4.0.17"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.17.tgz#213aa8d81a50d3b827d5691b02fe8cdedf8cc3d9"
-  integrity sha512-1OZiOSRmNsrMzkzGcoDoUnUlUUFCJwjDqFTQACgoD/LL0zj4X+W6IZ9qngMsJ98tU13ZHpYWwSkI/flzg5Jzkg==
+  version "4.0.19"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.19.tgz#39d526b53551bcd56fab9c56a3be0f676c48a12a"
+  integrity sha512-RmGoYoyK6FGchSsexjRKE7XtnARnUNXcrMTvsCBWxh77elV7Gen/QxQv1WByRv5LHf1PGRgwXDy1uhu46fTE2g==
   dependencies:
-    "@thirdweb-dev/chains" "0.1.59"
+    "@thirdweb-dev/chains" "0.1.60"
     "@thirdweb-dev/contracts-js" "1.3.16"
     "@thirdweb-dev/crypto" "0.2.0"
     "@thirdweb-dev/generated-abis" "0.0.1"
     "@thirdweb-dev/merkletree" "0.2.0"
-    "@thirdweb-dev/storage" "2.0.5"
+    "@thirdweb-dev/storage" "2.0.7"
     abitype "^0.2.5"
     bn.js "^5.2.1"
     bs58 "^5.0.0"
@@ -2296,10 +2296,7 @@
     form-data "^4.0.0"
     uuid "^9.0.1"
 
-"@thirdweb-dev/wallets@2.1.11":
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/wallets/-/wallets-2.1.11.tgz#3572583cedb5e20c51f674994a989d865a345116"
-  integrity sha512-1XWYifpi45zFYGnaIqshH4zV5XquvgM20acuP+2RzYIa9BL6SG9WpXGORfyuc39rXVf9FIl5ZUUzdNhDEocw9w==
+
   dependencies:
     "@account-abstraction/contracts" "^0.5.0"
     "@account-abstraction/sdk" "^0.5.0"
