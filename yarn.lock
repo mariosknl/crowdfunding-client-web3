@@ -1244,9 +1244,9 @@
   integrity sha512-+wuegAMaLcZnLCJIvrVUDzA9z/Wp93f0Dla/4jJvIhijRrPabjQbZe6fWiECLaJyfn5ci9fqf9vTw3xpQOad2A==
 
 "@openzeppelin/contracts-upgradeable@^4.4.2", "@openzeppelin/contracts-upgradeable@^4.7.3":
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.9.3.tgz#ff17a80fb945f5102571f8efecb5ce5915cc4811"
-  integrity sha512-jjaHAVRMrE4UuZNfDwjlLGDxTHWIOwTJS2ldnc278a0gevfXfPr8hxKEVBGFBE96kl2G3VHDZhUimw/+G3TG2A==
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.9.4.tgz#202222fa94fd85bd0a5794ead73acc63d815b55b"
+  integrity sha512-sVlteLCQ1RMgz7xbuhz/PRtBGT3oAPqmk1a/QWx+aeBibp+hFFeYodZJNXR7fs/4jbRQsXzPh1kuQ6RwMCCEMQ==
 
 "@openzeppelin/contracts-v0.7@npm:@openzeppelin/contracts@v3.4.2":
   version "3.4.2"
@@ -2115,6 +2115,11 @@
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.59.tgz#6dc700ac6c8acf584ba6ac268b12606bd09236d7"
   integrity sha512-fd1ZjHGwz/P1eRPffxfhITa/wv+DJuIG/5SIRZS22mOKTQNHr8+HtrmO/sous/D8ZMgIHmRCmOMeUfiYinxdKA==
 
+"@thirdweb-dev/chains@0.1.60":
+  version "0.1.60"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.60.tgz#d6e553d2198dd0f7a5702cea81f214dd1b3f009c"
+  integrity sha512-f0M19fDwOFTbcWhw09DikLzxvz+OBKdT0PC2r7Npj5GfWx8p40cf428Gsvmd5xDRk9mkeANYdGb3dM5iLbC3Gg==
+
 "@thirdweb-dev/contracts-js@1.3.16":
   version "1.3.16"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts-js/-/contracts-js-1.3.16.tgz#264727b40b0f320c01eefcb4295e89c9e9947002"
@@ -2203,7 +2208,7 @@
     qrcode "^1.5.3"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@4.0.17", "@thirdweb-dev/sdk@^4.0.0":
+"@thirdweb-dev/sdk@4.0.17":
   version "4.0.17"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.17.tgz#213aa8d81a50d3b827d5691b02fe8cdedf8cc3d9"
   integrity sha512-1OZiOSRmNsrMzkzGcoDoUnUlUUFCJwjDqFTQACgoD/LL0zj4X+W6IZ9qngMsJ98tU13ZHpYWwSkI/flzg5Jzkg==
@@ -2226,10 +2231,43 @@
     yaml "^2.3.1"
     zod "^3.22.3"
 
+"@thirdweb-dev/sdk@^4.0.0":
+  version "4.0.19"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.19.tgz#39d526b53551bcd56fab9c56a3be0f676c48a12a"
+  integrity sha512-RmGoYoyK6FGchSsexjRKE7XtnARnUNXcrMTvsCBWxh77elV7Gen/QxQv1WByRv5LHf1PGRgwXDy1uhu46fTE2g==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.60"
+    "@thirdweb-dev/contracts-js" "1.3.16"
+    "@thirdweb-dev/crypto" "0.2.0"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/merkletree" "0.2.0"
+    "@thirdweb-dev/storage" "2.0.7"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    eventemitter3 "^5.0.1"
+    fast-deep-equal "^3.1.3"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.1"
+    yaml "^2.3.1"
+    zod "^3.22.3"
+
 "@thirdweb-dev/storage@2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-2.0.5.tgz#e492923ca0037db7cd8f30572333a3bb2f67639e"
   integrity sha512-I3DK/ZNWOMa/XE2hfJnGKVfc9INn5c3if1qavyK/1fjJBxhUiUXjT59UYbuoWhHLEq0rS/QZVOGS/9qcOs/DAQ==
+  dependencies:
+    "@thirdweb-dev/crypto" "0.2.0"
+    cid-tool "^3.0.0"
+    form-data "^4.0.0"
+    uuid "^9.0.1"
+
+"@thirdweb-dev/storage@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-2.0.7.tgz#249b5bb2949156542cc715b5262f8c88dd0370de"
+  integrity sha512-pi+wfUycHWoOVxD+CZtfGprP9+yQ2PgErsYwWbW3/pQtk8uatvGJMPgMNYsiu6G3B1V3xokBfnmCTsONjz+YNw==
   dependencies:
     "@thirdweb-dev/crypto" "0.2.0"
     cid-tool "^3.0.0"
