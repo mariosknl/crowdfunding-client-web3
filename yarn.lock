@@ -2175,6 +2175,11 @@
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.62.tgz#d7a5c8bc71d3dac68c7da44b13b5ea7113a01151"
   integrity sha512-BLJEub6SIDfwktqLhFkeurVQbJp/RZeJLhzjjwxSWE4Kb1K7rv/nNkwRFXd3Hhc46DPJvrHuG3oBwkZgWxWgQw==
 
+"@thirdweb-dev/chains@0.1.63":
+  version "0.1.63"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.63.tgz#b10d8b697e633f79753454b15dc7082b805c4d64"
+  integrity sha512-BFjoSLMzQZpC1R3DaMYhP+ySxRgVO/UCITLtJJom99oFlYKsOGCbjOsh0ubLc/LfvD+MPrWuCben3Rh2lBiuyA==
+
 "@thirdweb-dev/contracts-js@1.3.16":
   version "1.3.16"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts-js/-/contracts-js-1.3.16.tgz#264727b40b0f320c01eefcb4295e89c9e9947002"
@@ -2275,12 +2280,35 @@
     qrcode "^1.5.3"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@4.0.25", "@thirdweb-dev/sdk@^4.0.0":
+"@thirdweb-dev/sdk@4.0.25":
   version "4.0.25"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.25.tgz#ee727c505baf2c5cb829a9c35cdef09a1c756dbd"
   integrity sha512-RNqKVXVELX9GZBssXrRQ/MLgjmljAoabetOh8GoSH6oSGMdc8ZHURaDX5jJTpEOC6HYjZMT1hcM89qpB8vgsuw==
   dependencies:
     "@thirdweb-dev/chains" "0.1.62"
+    "@thirdweb-dev/contracts-js" "1.3.16"
+    "@thirdweb-dev/crypto" "0.2.0"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/merkletree" "0.2.0"
+    "@thirdweb-dev/storage" "2.0.8"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    eventemitter3 "^5.0.1"
+    fast-deep-equal "^3.1.3"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.1"
+    yaml "^2.3.1"
+    zod "^3.22.3"
+
+"@thirdweb-dev/sdk@^4.0.0":
+  version "4.0.26"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.26.tgz#5cb414c90fa8b183b258e2b08adf8ec78f836d8b"
+  integrity sha512-lK72rfSkpv15iGzB1tBw9c0Cif4OVETpAD8j0XqKwtqAQ/X4Pc+tBVEH2wqRbiOzk4ftXIbmJwsvBu4ZNHFCFQ==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.63"
     "@thirdweb-dev/contracts-js" "1.3.16"
     "@thirdweb-dev/crypto" "0.2.0"
     "@thirdweb-dev/generated-abis" "0.0.1"
@@ -3263,9 +3291,9 @@ catharsis@^0.9.0:
     lodash "^4.17.15"
 
 chai@^4.3.4:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/chai/-/chai-4.4.0.tgz#f9ac79f26726a867ac9d90a9b382120479d5f55b"
-  integrity sha512-x9cHNq1uvkCdU+5xTkNh5WtgD4e4yDFCsp9jVc7N7qVeKeftv3gO/ZrviX5d+3ZfxdYnZXZYujjRInu1RogU6A==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/chai/-/chai-4.4.1.tgz#3603fa6eba35425b0f2ac91a009fe924106e50d1"
+  integrity sha512-13sOfMv2+DWduEU+/xbun3LScLoqN17nBeTLUsmDfKdoiC1fr0n9PU4guu4AhRcOVFk/sW8LyZWHuhWtQZiF+g==
   dependencies:
     assertion-error "^1.1.0"
     check-error "^1.0.3"
