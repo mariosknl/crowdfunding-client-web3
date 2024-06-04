@@ -319,18 +319,6 @@
     eip1193-provider "^1.0.1"
     js-sha3 "^0.8.0"
 
-"@coinbase/wallet-sdk@4.0.0-rc.2":
-  version "4.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@coinbase/wallet-sdk/-/wallet-sdk-4.0.0-rc.2.tgz#6f136fcee522849051eb23a9b7a6abcd63b15854"
-  integrity sha512-1wrzKtgEhB5cr5z2xPUWw8BUs2+w6ddzWEkafYUh0+fKvXPWl8y5bgBvMiWpjnDa/n9rIliGW7Bs2QlLaRvmtA==
-  dependencies:
-    buffer "^6.0.3"
-    clsx "^1.2.1"
-    eventemitter3 "^5.0.1"
-    keccak "^3.0.3"
-    preact "^10.16.0"
-    sha.js "^2.4.11"
-
 "@coinbase/wallet-sdk@4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@coinbase/wallet-sdk/-/wallet-sdk-4.0.3.tgz#fd52dd4c168c35979c7b3294018a6f78d163a593"
@@ -1325,43 +1313,43 @@
     superstruct "^1.0.3"
     uuid "^9.0.1"
 
-"@motionone/animation@^10.15.1", "@motionone/animation@^10.17.0":
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/@motionone/animation/-/animation-10.17.0.tgz#7633c6f684b5fee2b61c405881b8c24662c68fca"
-  integrity sha512-ANfIN9+iq1kGgsZxs+Nz96uiNcPLGTXwfNo2Xz/fcJXniPYpaz/Uyrfa+7I5BPLxCP82sh7quVDudf1GABqHbg==
+"@motionone/animation@^10.15.1", "@motionone/animation@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@motionone/animation/-/animation-10.18.0.tgz#868d00b447191816d5d5cf24b1cafa144017922b"
+  integrity sha512-9z2p5GFGCm0gBsZbi8rVMOAJCtw1WqBTIPw3ozk06gDvZInBPIsQcHgYogEJ4yuHJ+akuW8g1SEIOpTOvYs8hw==
   dependencies:
-    "@motionone/easing" "^10.17.0"
-    "@motionone/types" "^10.17.0"
-    "@motionone/utils" "^10.17.0"
+    "@motionone/easing" "^10.18.0"
+    "@motionone/types" "^10.17.1"
+    "@motionone/utils" "^10.18.0"
     tslib "^2.3.1"
 
 "@motionone/dom@^10.16.2", "@motionone/dom@^10.16.4":
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/@motionone/dom/-/dom-10.17.0.tgz#519dd78aab0750a94614c69a82da5290cd617383"
-  integrity sha512-cMm33swRlCX/qOPHWGbIlCl0K9Uwi6X5RiL8Ma6OrlJ/TP7Q+Np5GE4xcZkFptysFjMTi4zcZzpnNQGQ5D6M0Q==
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@motionone/dom/-/dom-10.18.0.tgz#7fd25dac04cab72def6d2b92b8e0cdc091576527"
+  integrity sha512-bKLP7E0eyO4B2UaHBBN55tnppwRnaE3KFfh3Ps9HhnAkar3Cb69kUCJY9as8LrccVYKgHA+JY5dOQqJLOPhF5A==
   dependencies:
-    "@motionone/animation" "^10.17.0"
-    "@motionone/generators" "^10.17.0"
-    "@motionone/types" "^10.17.0"
-    "@motionone/utils" "^10.17.0"
+    "@motionone/animation" "^10.18.0"
+    "@motionone/generators" "^10.18.0"
+    "@motionone/types" "^10.17.1"
+    "@motionone/utils" "^10.18.0"
     hey-listen "^1.0.8"
     tslib "^2.3.1"
 
-"@motionone/easing@^10.17.0":
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/@motionone/easing/-/easing-10.17.0.tgz#d66cecf7e3ee30104ad00389fb3f0b2282d81aa9"
-  integrity sha512-Bxe2wSuLu/qxqW4rBFS5m9tMLOw+QBh8v5A7Z5k4Ul4sTj5jAOfZG5R0bn5ywmk+Fs92Ij1feZ5pmC4TeXA8Tg==
+"@motionone/easing@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@motionone/easing/-/easing-10.18.0.tgz#7b82f6010dfee3a1bb0ee83abfbaff6edae0c708"
+  integrity sha512-VcjByo7XpdLS4o9T8t99JtgxkdMcNWD3yHU/n6CLEz3bkmKDRZyYQ/wmSf6daum8ZXqfUAgFeCZSpJZIMxaCzg==
   dependencies:
-    "@motionone/utils" "^10.17.0"
+    "@motionone/utils" "^10.18.0"
     tslib "^2.3.1"
 
-"@motionone/generators@^10.17.0":
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/@motionone/generators/-/generators-10.17.0.tgz#878d292539c41434c13310d5f863a87a94e6e689"
-  integrity sha512-T6Uo5bDHrZWhIfxG/2Aut7qyWQyJIWehk6OB4qNvr/jwA/SRmixwbd7SOrxZi1z5rH3LIeFFBKK1xHnSbGPZSQ==
+"@motionone/generators@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@motionone/generators/-/generators-10.18.0.tgz#fe09ab5cfa0fb9a8884097feb7eb60abeb600762"
+  integrity sha512-+qfkC2DtkDj4tHPu+AFKVfR/C30O1vYdvsGYaR13W/1cczPrrcjdvYCj0VLFuRMN+lP1xvpNZHCRNM4fBzn1jg==
   dependencies:
-    "@motionone/types" "^10.17.0"
-    "@motionone/utils" "^10.17.0"
+    "@motionone/types" "^10.17.1"
+    "@motionone/utils" "^10.18.0"
     tslib "^2.3.1"
 
 "@motionone/svelte@^10.16.2":
@@ -1372,17 +1360,17 @@
     "@motionone/dom" "^10.16.4"
     tslib "^2.3.1"
 
-"@motionone/types@^10.15.1", "@motionone/types@^10.17.0":
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/@motionone/types/-/types-10.17.0.tgz#179571ce98851bac78e19a1c3974767227f08ba3"
-  integrity sha512-EgeeqOZVdRUTEHq95Z3t8Rsirc7chN5xFAPMYFobx8TPubkEfRSm5xihmMUkbaR2ErKJTUw3347QDPTHIW12IA==
+"@motionone/types@^10.15.1", "@motionone/types@^10.17.1":
+  version "10.17.1"
+  resolved "https://registry.yarnpkg.com/@motionone/types/-/types-10.17.1.tgz#cf487badbbdc9da0c2cb86ffc1e5d11147c6e6fb"
+  integrity sha512-KaC4kgiODDz8hswCrS0btrVrzyU2CSQKO7Ps90ibBVSQmjkrt2teqta6/sOG59v7+dPnKMAg13jyqtMKV2yJ7A==
 
-"@motionone/utils@^10.15.1", "@motionone/utils@^10.17.0":
-  version "10.17.0"
-  resolved "https://registry.yarnpkg.com/@motionone/utils/-/utils-10.17.0.tgz#cc0ba8acdc6848ff48d8c1f2d0d3e7602f4f942e"
-  integrity sha512-bGwrki4896apMWIj9yp5rAS2m0xyhxblg6gTB/leWDPt+pb410W8lYWsxyurX+DH+gO1zsQsfx2su/c1/LtTpg==
+"@motionone/utils@^10.15.1", "@motionone/utils@^10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@motionone/utils/-/utils-10.18.0.tgz#a59ff8932ed9009624bca07c56b28ef2bb2f885e"
+  integrity sha512-3XVF7sgyTSI2KWvTf6uLlBJ5iAgRgmvp3bpuOiQJvInd4nZ19ET8lX5unn30SlmRH7hXbBbH+Gxd0m0klJ3Xtw==
   dependencies:
-    "@motionone/types" "^10.17.0"
+    "@motionone/types" "^10.17.1"
     hey-listen "^1.0.8"
     tslib "^2.3.1"
 
@@ -2307,11 +2295,6 @@
     uuid "^9.0.1"
     zod "^3.22.4"
 
-"@thirdweb-dev/chains@0.1.111":
-  version "0.1.111"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.111.tgz#07dc8dbdb331d8f20a43b5856ee0fdb34531874e"
-  integrity sha512-HJNXbfoBGSGA84t3rHmUapTyKA5/ss3anmoqkcfMKoCx3Zm/H2lw1WI+9qXkrP6eTzF/szpuUrEqMDc6Yf6aOg==
-
 "@thirdweb-dev/chains@0.1.115":
   version "0.1.115"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.115.tgz#354fd17cf4ecca5d70daffb19ac05b47c7452806"
@@ -2415,7 +2398,7 @@
     qrcode "^1.5.3"
     tiny-invariant "^1.3.3"
 
-"@thirdweb-dev/sdk@4.0.91":
+"@thirdweb-dev/sdk@4.0.91", "@thirdweb-dev/sdk@^4.0.0":
   version "4.0.91"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.91.tgz#b83818a5d4350a5ac68e99783d614a2ca596d67c"
   integrity sha512-b51LEErTymue6tZ3GUm7yXkAF6L0wKRnWZmOzriIXr6Q+uvNukUS7rgGsavqTJ636QZGwV7wO9sbNdNzl+nJ1Q==
@@ -2434,31 +2417,6 @@
     eventemitter3 "^5.0.1"
     fast-deep-equal "^3.1.3"
     thirdweb "5.27.0"
-    tiny-invariant "^1.3.3"
-    tweetnacl "^1.0.3"
-    uuid "^9.0.1"
-    yaml "^2.4.1"
-    zod "^3.22.4"
-
-"@thirdweb-dev/sdk@^4.0.0":
-  version "4.0.85"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-4.0.85.tgz#61a36f019ffb0ae825d308dd78894dc4e4390c9b"
-  integrity sha512-fuucDSfVgyYGozekmugs43OoRhsOaK7mygZA4mo+V7whziz3thFW3MDdq33ktbs3/q9kqFZe+9Qggi8x+fgkMA==
-  dependencies:
-    "@eth-optimism/sdk" "3.3.0"
-    "@thirdweb-dev/chains" "0.1.111"
-    "@thirdweb-dev/contracts-js" "1.3.23"
-    "@thirdweb-dev/crypto" "0.2.6"
-    "@thirdweb-dev/generated-abis" "0.0.2"
-    "@thirdweb-dev/merkletree" "0.2.6"
-    "@thirdweb-dev/storage" "2.0.15"
-    abitype "1.0.0"
-    bn.js "5.2.1"
-    bs58 "^5.0.0"
-    buffer "^6.0.3"
-    eventemitter3 "^5.0.1"
-    fast-deep-equal "^3.1.3"
-    thirdweb "5.22.1"
     tiny-invariant "^1.3.3"
     tweetnacl "^1.0.3"
     uuid "^9.0.1"
@@ -6685,32 +6643,6 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-thirdweb@5.22.1:
-  version "5.22.1"
-  resolved "https://registry.yarnpkg.com/thirdweb/-/thirdweb-5.22.1.tgz#1fb2deac0d22e9e95bf073ea6a1374952426a523"
-  integrity sha512-D0CRdytJZ7Qr2huapc4ovm5PJOq16vy/1Gsh9ryZ57XrMH91HG+2Ojbpw0+sOHZrdZSSsE+y6WMRj0M4Pqs2xw==
-  dependencies:
-    "@coinbase/wallet-sdk" "4.0.0-rc.2"
-    "@emotion/react" "11.11.4"
-    "@emotion/styled" "11.11.0"
-    "@google/model-viewer" "2.1.1"
-    "@noble/curves" "1.4.0"
-    "@noble/hashes" "1.4.0"
-    "@passwordless-id/webauthn" "^1.6.1"
-    "@radix-ui/react-dialog" "1.0.5"
-    "@radix-ui/react-focus-scope" "1.0.4"
-    "@radix-ui/react-icons" "1.3.0"
-    "@radix-ui/react-tooltip" "1.0.7"
-    "@tanstack/react-query" "5.29.2"
-    "@walletconnect/ethereum-provider" "2.12.2"
-    abitype "1.0.0"
-    fast-text-encoding "^1.0.6"
-    fuse.js "7.0.0"
-    mipd "0.0.7"
-    node-libs-browser "2.2.1"
-    uqr "0.1.2"
-    viem "2.10.9"
-
 thirdweb@5.27.0:
   version "5.27.0"
   resolved "https://registry.yarnpkg.com/thirdweb/-/thirdweb-5.27.0.tgz#0b21024676d6299eb035ab84ac515648acbb2f99"
@@ -7479,9 +7411,9 @@ yaml@^2.3.4:
   integrity sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==
 
 yaml@^2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.4.2.tgz#7a2b30f2243a5fc299e1f14ca58d475ed4bc5362"
-  integrity sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.4.3.tgz#0777516b8c7880bcaa0f426a5410e8d6b0be1f3d"
+  integrity sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==
 
 yargs-parser@^18.1.2:
   version "18.1.3"
